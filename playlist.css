@@ -1,0 +1,113 @@
+body {
+  font-family: sans-serif;
+  background: #33718a;
+background: linear-gradient(90deg, rgba(51, 113, 138, 1) 0%, rgba(133, 125, 125, 1) 50%, rgba(56, 38, 38, 1) 100%);
+  
+}
+
+.home2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.left img {
+  width: 350px;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+}
+.left h1{
+    
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.right{
+    width: 400px;
+}
+.player {
+  background: #bdb8b8;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 700px;
+  box-shadow: 0 0 10px #c5c0c0;
+  flex: 1;
+}
+
+.controls {
+  margin: 15px 0;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #666;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#playlist li {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#playlist li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  border-radius: 12px;
+}
+
+#playlist li.active {
+  outline: 3px solid #151e46;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* خلفيات لكل أغنية */
+.Diva {
+  background-image: url("7ob&kashat.jpeg");
+}
+
+.matmshish {
+  background-image: url("7ob&kashat.jpeg");
+}
+
+.karma {
+  background-image: url("7ob&kashat.jpeg");
+}
+
+.tutu {
+  background-image: url("7ob&kashat.jpeg");
+}
+
+.smckhdat {
+  background-image: url("7ob&kashat.jpeg");
+}
